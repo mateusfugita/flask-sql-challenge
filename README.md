@@ -1,9 +1,9 @@
 # Flask SQL Challenge
 
 ## ⚒️ Tecnologias
-- Flask
-- SQLAlchemy
-- Flask-SQLAlchemy
+- [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+- [SQLAlchemy](https://www.sqlalchemy.org/)
+- [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
 
 ## :computer: Rodando localmente
 1. Instale as dependências do projeto
@@ -16,7 +16,7 @@ $ pip install -r requirements.txt
 $ cp .env.example .env
 ```
 
-3. Coloque a string de conexão do banco de dados que será usado (caso opte por utilizar o SQLite, coloque **sqlite:///database/shipay.db**)
+3. Coloque a string de conexão do banco de dados que será usado (caso opte por utilizar o SQLite, coloque **sqlite:///database/<NOME_DO_BANCO_DE_DADOS>.db**)
 4. Crie as tabelas do banco de dados
 ```
 $ python database/migration.py
