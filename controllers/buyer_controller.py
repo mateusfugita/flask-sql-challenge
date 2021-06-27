@@ -48,4 +48,3 @@ def selectOne(id: int):
 def checkIfAddressCityExists(id):
     address_city = AddressCity.query.filter_by(id = id).first()
     return address_city is not None
-        
