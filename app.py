@@ -26,7 +26,7 @@ def getBuyer(id):
     return response
 
 #address_cities
-@app.route('/city', methods=['POST'])
+@app.route('/cities', methods=['POST'])
 def createCity():
     body = request.get_json()
     response = address_city_controller.create(body)
