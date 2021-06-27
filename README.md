@@ -1,11 +1,11 @@
 # Flask SQL Challenge
 
-## Tecnologias
+## ⚒️ Tecnologias
 - Flask
 - SQLAlchemy
 - Flask-SQLAlchemy
 
-## Como usar
+## :computer: Rodando localmente
 1. Instale as dependências do projeto
 ```
 $ pip install -r requirements.txt
@@ -29,7 +29,7 @@ $ python app.py
 
 6. A aplicação estará sendo executada em **http://localhost:5000**
 
-## Rodando em ambiente Docker
+## :whale: Rodando em ambiente Docker
 1. Execute os seguintes comandos no terminal
 ```
 $ docker build -t <CONTAINER_NAME>:latest .
